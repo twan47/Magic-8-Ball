@@ -25,3 +25,5 @@ elif random_number == 8:
     print("Outlook not so good")
 elif random_number == 9:
     print("Very doubtful")
+
+#save test
