@@ -7,6 +7,10 @@ answer = ""
 
 random_number = random.randint(1, 9)
 
+print(name + " asks: " + question)
+
+print ("Magic 8-Ball's answer: " + answer)
+
 if random_number == 1:
     print("Yes - definitely")
 elif random_number == 2:
@@ -25,5 +29,5 @@ elif random_number == 8:
     print("Outlook not so good")
 elif random_number == 9:
     print("Very doubtful")
-
-#save test 12346
+else:
+    answer = "Error"
